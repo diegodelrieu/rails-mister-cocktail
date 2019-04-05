@@ -1,0 +1,7 @@
+<h1>Create a new cocktail</h1>
+<p>To be sipped at home or at the office</p>
+
+<%= simple_form_for @cocktail do |f| %>
+  <%= f.input :name, label: 'Name' %>
+  <%= f.button :submit, label: 'Submit' %>
+<% end %>

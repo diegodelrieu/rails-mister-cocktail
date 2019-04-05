@@ -1,0 +1,21 @@
+// Import your components CSS files here.
+@import "alert";
+@import "avatar";
+@import "navbar";
+
+.btn-primary {
+  color: white;
+}
+body{text-align: center;}
+svg {    max-width: 100%; max-height: 99vh;}
+
+.container {
+  display: flex;
+
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
